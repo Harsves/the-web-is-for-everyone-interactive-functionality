@@ -1,0 +1,30 @@
+<%- include('./particals/head.ejs') %>
+
+
+    <h1>Stekjesbieb</h1>
+
+    <div class="filters">
+        <div class="filters-btn">
+            <i class="fa-solid fa-filter"></i>
+            <p>Filters</p>
+        </div>
+
+        <div class="filter-menu">
+           
+        </div>
+    </div>
+
+    <div class="stekjes">
+        
+            <% stekjes.forEach(stekje => { %>
+                <div class="stekje">
+                
+                <h2><%= stekje.naam %></h2>
+                <a href="/<%= stekje.naam %>">Meer informatie</a>
+            </div>
+            <% }) %>
+
+    </div>
+
+
+<%- include('./particals/foot.ejs') %>
