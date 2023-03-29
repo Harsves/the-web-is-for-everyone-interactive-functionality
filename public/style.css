@@ -137,7 +137,7 @@ a {
 
 /* Main */
 
-main {
+main section {
     padding: 40px 30px 20px 30px;
 }
 
@@ -185,6 +185,7 @@ main p {
     margin: 20px;
     border-radius: var(--radius);
     text-align: center;
+    width: 80%;
     aspect-ratio: 1 / 1.5;
 }
 
@@ -212,6 +213,17 @@ main p {
     font-size: var(--h2);
     font-weight: var(--bold);
     margin-bottom: var(--top-bottom);
+}
+/* Detail page */
+
+.detail img {
+    width: 100%;
+}
+
+.detail > h1 {
+    font-family: var(--header);
+    font-size: var(--h1);
+    font-weight: var(--bold);
 }
 
 /* Form */

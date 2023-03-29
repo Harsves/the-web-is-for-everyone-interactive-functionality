@@ -25,12 +25,12 @@ app.get('/', function (req, res) {
 
 // Maak een route voor het form
 app.get('/form', function (req, res) {
-  res.render('form.ejs', data)
+  res.render('form')
 })
 
 // Maak een route voor de detailpage
-app.get('/<%= stekje.name %>', function (req, res) {
-  res.render('detail.ejs', data)
+app.get('/stekje/:id', function (req, res) {
+  res.render('detail', data)
 })
 
 // na submit Stel afhandeling van formulieren in

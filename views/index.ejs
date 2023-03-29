@@ -3,7 +3,7 @@
 
     <h1>Stekjesbieb</h1>
 
-    <div class="filters">
+    <section class="filters">
         <div class="filters-btn">
             <i class="fa-solid fa-filter"></i>
             <p>Filters</p>
@@ -12,19 +12,16 @@
         <div class="filter-menu">
            
         </div>
-    </div>
+    </section>
 
-    <div class="stekjes">
-        
+        <ul class="stekjes">
             <% stekjes.forEach(stekje => { %>
-                <div class="stekje">
-                
-                <h2><%= stekje.naam %></h2>
-                <a href="/<%= stekje.naam %>">Meer informatie</a>
-            </div>
+                <li class="stekje">
+                    <h2><%= stekje.naam %></h2>
+                    <a href="/stekje/<%= stekje.id %>">Meer informatie</a>
+                </li>
             <% }) %>
-
-    </div>
+        </ul>
 
 
 <%- include('./particals/foot.ejs') %>
