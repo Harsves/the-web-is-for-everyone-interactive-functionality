@@ -34,7 +34,7 @@
     --p: 16px;
 
     /* Border */
-    --radius: 20px;
+    --radius: 10px;
 
     /* Margins stekjes */
     --top-bottom: 20px;
@@ -137,7 +137,7 @@ a {
 
 /* Main */
 
-main section {
+main  {
     padding: 40px 30px 20px 30px;
 }
 
@@ -203,7 +203,7 @@ main p {
     background-color: var(--dark-blue);
     color: var(--white);
     border-radius: var(--radius);
-    padding: 20px;
+    padding: 17px;
     margin-bottom: var(--top-bottom);
     display: inline-block;
 }
@@ -214,17 +214,41 @@ main p {
     font-weight: var(--bold);
     margin-bottom: var(--top-bottom);
 }
+
 /* Detail page */
 
 .detail img {
-    width: 100%;
+    width: 100vw;
+    margin-left: -30px;
+    margin-top: -40px;
 }
 
-.detail > h1 {
+.detail h1 {
     font-family: var(--header);
     font-size: var(--h1);
     font-weight: var(--bold);
+    margin: 20px 0 20px 0;
 }
+
+.detail h2 {
+    font-family: var(--header);
+    font-size: var(--h4);
+    font-weight: var(--bold);
+    margin: 10px 0 5px 0;
+}
+
+.detail a {
+    font-family: var(--header);
+    font-size: var(--p);
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border-radius: var(--radius);
+    padding: 15px;
+    margin-bottom: var(--top-bottom);
+    display: inline-block;
+    margin-top: 20px;
+}
+
 
 /* Form */
 
@@ -254,4 +278,30 @@ input[type="submit"] {
     justify-content: space-around;
     background-color: var(--dark-blue);
     color: var(--white);
+}
+
+/* Footer */
+
+footer {
+    box-shadow:0 0 12px 1px rgb(0 0 0 / 4%);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    background-color: white;
+    position: relative;
+    bottom: 0;
+}
+
+footer > a > img {
+    width: 100px;
+    height: auto;
+}
+
+footer > p {
+    font-family: var(--bodytext);
+    font-weight: var(--regular);
+    font-size: var(--p);
 }
