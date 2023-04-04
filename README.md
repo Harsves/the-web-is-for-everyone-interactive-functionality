@@ -1,7 +1,6 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Stekjesbieb
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="385" alt="Schermafbeelding 2023-03-20 om 12 12 33" src="https://user-images.githubusercontent.com/112931845/226323298-6f407363-6f0a-48e5-80d2-18f77368d08e.png">
 
 ## Inhoudsopgave
 
@@ -13,18 +12,32 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+De stekjesbieb is een initiatief van Buurtcampus oost waarin buurtbewoners stekjes kunnen ruilen. De website laat zien welke stekjes er in de kast aanwezig zijn en je kan zelf ook een stekje toevoegen.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+*Gebruikte tools*
+Pen en papier
+Adobe XD
+VS Code
+
+*Gebruikte techniek*
+HTML
+CSS
+JavaScript
+Node.js
+Express
 
 ## Installatie
+Installeer Node.js en express
 
 ## Gebruik
+Stekjes ruilen
 
 ## Bronnen
+MDN docs
+Youtube
+Google
 
 ## Licentie
 
